@@ -1,5 +1,3 @@
-"""Script de demonstração — útil para depurar manualmente."""
-
 from puzzle.state import State
 from algorithms.bfs import BFS
 from algorithms.dfs import DFS
@@ -21,7 +19,7 @@ def print_result(name: str, result):
 
 
 if __name__ == "__main__":
-    initial = State((2, 8, 3, 1, 6, 4, 7, 0, 5))   # ~20 movimentos até a solução
+    initial = State((2, 8, 3, 1, 6, 4, 7, 0, 5))
 
     print("Estado inicial:")
     print(initial)
